@@ -60,3 +60,13 @@ body{
     font-weight:bold;
     font-family:monospace;
 }
+
+@media all and (max-width:600px){
+    body{
+        overflow: hidden;
+    }
+    .image.active > img{
+        width: 25rem;
+        
+    }
+}
